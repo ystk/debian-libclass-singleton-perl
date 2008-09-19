@@ -1,0 +1,71 @@
+libclass-singleton-perl (1.4-1) unstable; urgency=low
+
+  [ Damyan Ivanov ]
+  * Take over for the Debian Perl Group on maintainer's request
+    (http://lists.debian.org/debian-perl/2008/09/msg00111.html)
+
+  [ Ansgar Burchardt ]
+  * New upstream release (Closes: #492139)
+  * debian/watch: Use dist-based URL
+  * Use debhelper instead of yada
+  * debian/control: Add Vcs-* fields, add Homepage field,
+    set Maintainer to Debian Perl Group, add myself to Uploaders,
+    bump Standards Version to 3.8.0
+  * debian/control: Change description slightly
+  * Convert debian/copyright to proposed machine-readable format
+
+  [ gregor herrmann ]
+  * debian/copyright: add additional copyright holder, found in comments in
+    the source.
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Fri, 19 Sep 2008 18:50:38 +0200
+
+libclass-singleton-perl (1.03-7) unstable; urgency=low
+
+  * New maintainer release.
+  * Source package converted to YADA.
+  * New standards.
+
+ -- Piotr Roszatycki <dexter@debian.org>  Tue, 19 Jul 2005 13:31:30 +0200
+
+libclass-singleton-perl (1.03-6) unstable; urgency=low
+
+  * Updated maintainer email address.
+  * Bumped up standards version to 3.5.8.
+
+ -- Brian Nelson <pyro@debian.org>  Wed, 19 Feb 2003 18:10:49 -0800
+
+libclass-singleton-perl (1.03-5) unstable; urgency=low
+
+  * Changed Build-Depends to Build-Depends-Indep to fix a lintian error
+
+ -- Brian Nelson <nelson@bignachos.com>  Fri,  1 Nov 2002 19:47:30 -0800
+
+libclass-singleton-perl (1.03-4) unstable; urgency=low
+
+  * Added "make test" to the build-stamp target in debian/rules
+  * Removed some unnecessary debhelper commands
+  * Removed unnecessary usr/lib directory
+
+ -- Brian Nelson <nelson@bignachos.com>  Fri, 25 Oct 2002 00:47:26 -0700
+
+libclass-singleton-perl (1.03-3) unstable; urgency=low
+
+  * Added pointer to '/usr/share/common-licenses/Artistic' license in
+    copyright file
+
+ -- Brian Nelson <nelson@bignachos.com>  Tue, 15 Oct 2002 10:58:56 -0700
+
+libclass-singleton-perl (1.03-2) unstable; urgency=low
+
+  * Packaged to use pristine upstream source
+  * Cleaned up copyright file
+
+ -- Brian Nelson <nelson@bignachos.com>  Sun, 13 Oct 2002 19:51:25 -0700
+
+libclass-singleton-perl (1.03-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #165975)
+
+ -- Brian Nelson <nelson@bignachos.com>  Tue, 17 Sep 2002 15:04:08 -0700
+
